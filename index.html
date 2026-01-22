@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudaspróba</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <h1>League of Legends kvíz</h1>
+<!-- 1.kérdés-->
+    <form action="index.html" method="get">
+        <p>Mennyi hős van a játékban?</p>
+        <input type="radio" id="c165" name="c" value="c165">
+        <label for="c165">165 </label><br>
+        <input type="radio" id="c75" name="c" value="c75">
+        <label for="c75">75 </label><br>
+        <input type="radio" id="c172" name="c" value="c172">
+        <label for="c172">172 </label><br>
+        <input type="radio" id="c120" name="c" value="c122">
+        <label for="c122">122 </label><br>
+        <div id="kerdes1"></div>
+
+<!-- 2.kérdés-->
+    <h2>Milyen role-ok vannak a játékban</h2>
+    <input type="radio" id="role1" name="role" value="role1">
+    <label for="role1">Top, Mid, Jungler, Adc, Fighter</label><br>
+    <input type="radio" id="role2" name="role" value="role2">
+    <label for="role2">Tank, Feeder, Monster, Marksman Fighter</label><br>
+    <input type="radio" id="role3" name="role" value="role3">
+    <label for="role3">Top, Feeder, Jonkler, Adc, Support</label><br>
+    <input type="radio" id="role4" name="role" value="role4">
+    <label for="role4">Top, Mid, Jungler, Adc, Support</label><br>
+    <div id="kerdes2"></div>
+<!-- 3.kérdés-->
+    <h2>Milyen pályák vannak most a játékban?</h2>
+    <input type="checkbox" id="map1" name="map" value="map1">
+    <label for="map1">Dust 2</label><br>
+    <input type="checkbox" id="map2" name="map" value="map2">
+    <label for="map2">Idézők szurdoka</label><br>
+    <input type="checkbox" id="map3" name="map" value="map3">
+    <label for="map3">Ordító szakadék</label><br> 
+    <input type="checkbox" id="map4" name="map" value="map4">
+    <label for="map4">Fracture</label><br>
+    <div id="kerdes3"></div>
+<!-- 4.kérdés-->
+
+    <h2>Mennyire bugos a játék?</h2>
+    <input type="range" id="bugos" name="bugos" min="1" max="10"><br>
+    <div id="kerdes4"></div>
+
+<!-- 5.kérdés-->
+     <h2>Mikor indult a játék?</h2>
+    <select id="ev" name="ev">
+        <option value="ev1">2026</option>
+        <option value="ev2">2007</option>
+        <option value="ev3">2016</option>
+        <option value="ev4">2009</option>
+        <option value="ev5">2011</option>
+        <option value="ev6">2006</option>  
+    </select><br>
+    <div id="kerdes5"></div>
+
+<!-- 6.kérdés-->
+    <h2>Hány karakter lehet maximum a táblán TFT-ben?</h2>
+    <input type="radio" id="tft1" name="tft" value="tft1">
+    <label for="cs5">12</label><br>
+    <input type="radio" id="tft2" name="tft" value="tft2">
+    <label for="cs4">13</label><br>
+    <input type="radio" id="tft3" name="tft" value="tft3">
+    <label for="cs6">10</label><br>
+    <input type="radio" id="c" name="tft" value="tft4">
+    <label for="cs6">5</label><br>
+    <div id="kerdes6"></div>
+<!-- 7.kérdés-->
+    <h2>Hány játékos van egy csapatban?</h2>
+    <input type="radio" id="cs5" name="csapat" value="cs5">
+    <label for="cs5">5</label><br>
+    <input type="radio" id="cs4" name="csapat" value="cs4">
+    <label for="cs4">4</label><br>
+    <input type="radio" id="cs6" name="csapat" value="cs6">
+    <label for="cs6">6</label><br>
+    <div id="kerdes7"></div>
+
+<!-- 8.kérdés-->
+     <h2>Mi a játék legmagasabb rangja?</h2>
+    <select id="rang" name="rang">
+        <option value="grandmaster">Grandmaster</option>
+        <option value="bronze">Bronze</option>
+        <option value="master">Master</option>
+        <option value="silver">Silver</option>
+        <option value="diamond">Diamond</option>
+        <option value="gold">Gold</option>
+        <option value="challenger">Challenger</option>
+        <option value="platinum">Platinum</option>
+        <option value="iron">Iron</option>
+    </select><br>
+    <div id="kerdes8"></div>
+<!-- 9.kérdés-->
+    <h2>Melyik játékokat fejleszti a Riot Games? (több is lehet)</h2>
+    <input type="checkbox" id="riot1" name="riotgame" value="lol">
+    <label for="riot1">League of Legends</label><br>
+    <input type="checkbox" id="riot4" name="riotgame" value="GTA 6">
+    <label for="riot4">GTA 6</label><br>
+    <input type="checkbox" id="riot2" name="riotgame" value="valorant">
+    <label for="riot2">Valorant</label><br>
+    <input type="checkbox" id="riot3" name="riotgame" value="cs">
+    <label for="riot3">Counter-Strike</label><br>
+    <div id="kerdes9"></div>
+<!-- 10.kérdés-->
+    <h2>Milyen kapcsolat volt Nasus és renekton között?</h2>
+    <input type="radio" id="nasus1" name="nasus" value="ellen">
+    <label for="nasus1">Főellenségek</label><br>
+    <input type="radio" id="nasus2" name="nasus" value="testver">
+    <label for="nasus2">Testvérek</label><br>
+    <input type="radio" id="nasus3" name="nasus" value="munkatarsak">
+    <label for="nasus3">Munkatársak</label><br>
+    <input type="radio" id="nasus4" name="nasus" value="hazas">
+    <label for="nasus4">Házasok</label><br>
+  
+    <div id="kerdes10"></div>
+
+    <div id="eredmeny"><div>
+        
+
+     <input type="submit" value="Küldés">
+     </form>
+
+
+    <script>
+        let url = window.location.search;
+        if(url.includes("?"))
+// keréd 1
+        
+        {
+            let pontok = 0;
+            let valaszok = url.split("?")[1];
+            let kulonvalaszok = valaszok.split("&");
+            if (kulonvalaszok[0].split("=")[1] == "c172") {
+                document.getElementById("kerdes1").innerText = "Helyes válasz!";
+                pontok++;
+            } else {
+                document.getElementById("kerdes1").innerText = "Rossz válasz!";
+            }
+// keréd 2
+            let i = 1;
+            let jok = 0;
+            while(kulonvalaszok[i].startsWith("role")){
+                if(kulonvalaszok[i].split("=")[1] == "role4" ){
+                    jok++;
+                }
+                i++;
+            }
+            if(jok == 1){
+                document.getElementById("kerdes2").innerText = "Helyes válasz!";
+                pontok++;
+            } else {
+                document.getElementById("kerdes2").innerText = "Rossz válasz!";
+            }
+           
+
+// keréd 3
+            let jok2 = 0;
+            while(kulonvalaszok[i].startsWith("map")){
+                if(kulonvalaszok[i].split("=")[1] == "map2" || kulonvalaszok[i].split("=")[1] == "map3"){
+                    jok2++;
+                }
+              
+                i++
+
+            }
+            if(jok2 == 2){
+                document.getElementById("kerdes3").innerText = "Helyes válasz!";
+                pontok++;
+            } else {
+                document.getElementById("kerdes3").innerText = "Rossz válasz!";
+            }
+
+            
+// keréd 4
+          
+            if (kulonvalaszok[i].split("=")[1] == "10" || kulonvalaszok[i].split("=")[1] == "9" || kulonvalaszok[i].split("=")[1] == "8") {
+                document.getElementById("kerdes4").innerText = "Helyes válasz! Teljesen bugos!";
+                pontok++;
+            } 
+            else {
+                document.getElementById("kerdes4").innerText = "Helytelen válasz!";
+            }
+            i++;
+// keréd 5
+              
+            console.log(kulonvalaszok[i].split("=")[1]);
+            if (kulonvalaszok[i].split("=")[1] == "ev4"){
+                document.getElementById("kerdes5").innerText = "Helyes válasz!";
+                pontok++;
+            } 
+            else {
+                document.getElementById("kerdes5").innerText = "Rossz válasz!";
+            }
+            i++;
+             
+// keréd 6
+               
+            if(kulonvalaszok[i].split("=")[1] == "tft3"){
+                document.getElementById("kerdes6").innerText = "Helyes válasz!";
+                pontok++;   
+            } 
+            else {
+                document.getElementById("kerdes6").innerText = "Rossz válasz!";
+            }
+            i++;
+               
+// keréd 7
+
+            if(kulonvalaszok[i].split("=")[1] == "cs5"){
+                document.getElementById("kerdes7").innerText = "Helyes válasz!";
+                pontok++;
+            } else {
+                document.getElementById("kerdes7").innerText = "Rossz válasz!";
+            }
+            i++;
+             
+
+//keréd 8
+            if(kulonvalaszok[i].split("=")[1] == "challenger"){
+                document.getElementById("kerdes8").innerText = "Helyes válasz!";
+                pontok++;   
+            } 
+            else {
+                document.getElementById("kerdes8").innerText = "Rossz válasz!";
+            }
+            i++;
+               
+//keréd 9
+            let jok3 = 0;
+            while(kulonvalaszok[i].startsWith("riot")){
+                if(kulonvalaszok[i].split("=")[1] == "lol" || kulonvalaszok[i].split("=")[1] == "valorant"){
+                    jok3++;
+                }
+              
+                i++
+
+            }
+            if(jok3 == 2){
+                document.getElementById("kerdes9").innerText = "Helyes válasz!";
+                pontok++;
+            } else {
+                document.getElementById("kerdes9").innerText = "Rossz válasz!";
+            }
+//keréd 10
+            if(kulonvalaszok[i].split("=")[1] == "testver"){
+                document.getElementById("kerdes10").innerText = "Helyes válasz!";
+                pontok++;
+            } else {
+                document.getElementById("kerdes10").innerText = "Rossz válasz!";
+            }
+            i++;
+
+            let nyeremeny = pontok * 1000;
+            if (pontok == 10) {
+                nyeremeny += 5000;
+                document.getElementById("eredmeny").innerText = "Gratulálok! Tokéletes eredmény! " + pontok + " pontot értél el, így nyereményed: " + nyeremeny + " RP!";
+            }
+            else if (pontok != 10 && pontok > 0) {
+                document.getElementById("eredmeny").innerText = "Gratulálok! " + pontok + " pontot értél el, így nyereményed: " + nyeremeny + " RP!";
+            }
+            else {
+                document.getElementById("eredmeny").innerText = "Sajnos nem értél el pontot, próbáld újra! Nyereményed: 0 RP!";
+            }
+        }
+     </script>
+</body>
+</html>
